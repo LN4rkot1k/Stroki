@@ -1,0 +1,6 @@
+name = input("Введите свое имя:")
+surname = input("Введите свою фамилию:")
+group = input("Введите вашу группу:")
+print("Привет, " + name +" " + surname + " из группы " + group)
+email = input("Введи свою электронную почту: ")
+print(surname[0:5]+2*name[0:5]+3*email[0:5])
